@@ -1,0 +1,33 @@
+.dashboard-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0f0f0f40;
+    margin: 50px;
+    border-radius: 4px;
+}
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #13328C;
+  }
+  
+  .dashboard-table th, .dashboard-table td {
+    /* border: 1px solid #ddd; */
+    padding: 20px;
+  }
+  
+  .dashboard-table th {
+    background-color: #f2f2f2;
+  }
+  .dashboard-table td {
+    color: #0f0f0f;
+  }
+  
+  /* .edit-icon, .delete-icon {
+    cursor: pointer;
+    margin-right: 8px;
+  } */
+  

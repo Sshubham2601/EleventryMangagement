@@ -1,0 +1,47 @@
+.generate-qr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .generate-qr-box {
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+  .generate-qr-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .generate-qr-box input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .generate-qr-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  select.select {
+    padding: 10px;
+    margin-bottom: 10px;
+}

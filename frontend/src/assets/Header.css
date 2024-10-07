@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #13328C;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.header-tagline {
+    display: flex;
+    gap: 50px;
+}
+.header-logo{
+    cursor: pointer;
+}
+.header-btn {
+    display: flex;
+    gap: 15px;
+}
+
+.Generate-QR{
+    cursor: pointer;
+}
+
+.Scan-QR {
+    cursor: pointer;
+}
+
+.header-btn button {
+    background: #13328C;
+    color: #fff;
+    padding: 4px 14px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1);
+}
